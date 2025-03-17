@@ -7,8 +7,21 @@
 - Define project requirements and technical specifications
   
 Evidence:<br>
-[Initial Project-plan](link/to/file)
+[Initial Project-plan](../Files/Smart_Radiator_Thermostat_Project.pdf)
+### Week 2
+- lorem
+
+Evidence:<br>
+[ipsum](like/to/file)
 ## Focus Areas & Evidence[^3]
+### Future-Oriented Organization
+N/A
+### Investigative Ability
+N/A
+### Personal Leadership
+N/A
+### Targeted Interaction
+N/A
 [^1]: Week 1 start at the 24th of February, since due to complications that is when my group was formed. 
 [^2]: This area relates to the LO1 and how I achive the stated outcome.
 [^3]: This area relates to the LO2 and how I achive the stated skills.
