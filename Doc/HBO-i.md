@@ -1,7 +1,7 @@
 ## LO 1 : plans and executes a project in their track at level 2 of the HBO-i framework regarding autonomy and complexity, in an agile way
 ### In my own words:
-I want to develop a smart radiator thermostat while focusing on two main activities: realising and designing. At level 2, this means working independently on moderately complex tasks while adapting to changing project requirements in an agile way.
+I want to develop a smart radiator thermostat while focusing on two main activities: realising and designing. At level 2, this means working independently on moderately complex tasks while adapting to changing project requirements in an agile way. Beyond fulfilling the project requirements, I personally am curious about embedded systems, I aim to deepen my understanding of how hardware components interact and how to troubleshoot and integrate them effectively into a working prototype. 
 
 ## LO 2 : applies professional skills at level 2 in the focus areas: future-oriented organization, investigative ability, personal leadership, and targeted interaction 
 ### In my own words:
-I will demonstrate professional skills by researching and integrating technologies effectively, planning for scalability, taking initiative in key tasks, and ensuring clear communication with stakeholders
+In this project, I will develop professional skills by taking a more proactive role in investigating embedded systems and how they fit into the broader product design. I will focus on selecting and integrating the right technologies, planning for future scalability of the hardware design, and improving my leadership by taking initiative in hardware-related tasks. Additionally, I want to refine my communication skills when collaborating on both technical and non-technical topics with the other groupmembers, making sure that everyone stays aligned, especially when translating hardware constraints into project decisions.
