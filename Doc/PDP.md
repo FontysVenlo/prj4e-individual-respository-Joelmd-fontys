@@ -1,18 +1,40 @@
 # PDP
 ## [Learning Goals](HBO-i.md)
 ## Plan & Execution[^1][^2]
-### Week 1
-- Create the initial idea for our project
-- Developed a rough outline and understanding of the project's scope
-- Define project requirements and technical specifications
+### Week 1 | 24.02
+- I will join a project group and finalize the project idea
+- I will identify and select hardware components but keep them updated
   
 Evidence:<br>
-[Initial Project-plan](../Files/Smart_Radiator_Thermostat_Project.pdf)
-### Week 2
+[Initial project idea containign hardware list](../Files/Smart_Radiator_Thermostat_Project.pdf)
+### Week 2 | 10.03
+- I will follow the INES course and practice with hardware
+
+Evidence:<br>
+[ipsum](like/to/file)
+### Week 3 | 17.03
+- I will create a detailed list of all needed hardware components
+- I will help create the project charter to get a better understanding of what our plan is
+
+
+Evidence:<br>
+[ipsum](like/to/file)
+### Week 4 | 24.03
+- I will create a pitch for our project
+
+Evidence:<br>
+[Pitch](../Files/pitch.md)
+### Week 5 | 31.03
 - lorem
 
 Evidence:<br>
 [ipsum](like/to/file)
+### Week 6 | 07.04
+- lorem
+
+Evidence:<br>
+[ipsum](like/to/file)
+
 ## Focus Areas & Evidence[^3]
 ### Future-Oriented Organization
 N/A
