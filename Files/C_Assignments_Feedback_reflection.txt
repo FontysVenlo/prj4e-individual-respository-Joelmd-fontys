@@ -1,0 +1,37 @@
+Feedback for Joel
+
+1. The code works, correctly counting occurrences in an array, the only couple of things that could be improved are the naming conventions and the number of comments explaining more complex parts of the code.
+
+
+2. The code seems to work as asked for, the only thing missing is the clear separation of declaration and definition part.
+
+
+3. The code is working, with comments explaining complex lines and proper testing covering variable testcases.
+
+
+4. The code seems to work, the function is efficient.
+
+5. Complex code is explained with comments, the function is tested in the main, looks good
+
+6. The code correctly processes the 2 least significant bits, the naming of the functions is clear
+
+7. Comments explain the function of the code clearly, code is efficient
+
+8. The rectangle seems to be working, but the circle not-I have the same problem, so I completely get this one, otherwise code looks good
+
+9. Looks great!
+
+10. The use of “ungetc(ch, stdin);” seems a bit unnecessary since “scanf” reads only numbers, skipping all the spaces, but that’s not a big impact on the code, everything else looks good
+
+11. Interesting use of global variables, overall great
+
+20. Good separation of concerns, logic seems complex but no comments explaining it, overall very good
+
+Overall, the code is well thought out and well-structured. It demonstrates clear logic and good organization. The only area for improvement would be to include documentation for the tests of some functions, which would enhance the clarity of the testing process.
+
+----
+Plan:
+
+- Write more test cases
+- Develop a better naming convention for variables and functions
+- write more comments on steps inside functions
