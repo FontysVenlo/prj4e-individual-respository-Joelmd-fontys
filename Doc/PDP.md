@@ -1,49 +1,61 @@
-# PDP
-## [Learning Goals](HBO-i.md)
-## Plan & Execution[^1][^2]
+# Personal Development Plan (PDP)
+
+**Name:** Joel Malagarriga Duarte 
+**Track:** PRJ4 - Embedded Systems  
+**Project:** Smart Radiator Thermostat  
+**Start Date:** 24.02.2025[^1]  
+
+This Personal Development Plan outlines my goals and progress during the semester. It is based on the HBO-i framework, and structured week-by-week to reflect on both technical and professional development.
+
+---
+
+## Learning Goals
+
+Defined using the HBO-i framework. See full LO descriptions and interpretations: [Learning Goals →](./HBO-i.md)
+
+| LO # | Summary | 
+|------|---------|
+| 1    | Execute project in agile way within Embedded Systems context | 
+| 2    | Apply professional skills: leadership, communication, investigation | 
+
+---
+
+## Weekly Log
+
+For an overview of the original weekly planning, see:  
+[Weekly Plan Overview](../Files/weekly_plan_overview.png)
+
 ### Week 1 | 24.02
-- I will join a project group and finalize the project idea
-- I will identify and select hardware components but keep them updated
-  
-Evidence:<br>
-[Initial project idea containign hardware list](../Files/Smart_Radiator_Thermostat_Project.pdf)
+
+**Plan:**  
+- Join project group and finalize idea  
+- Start selecting initial hardware components  
+- Start documenting rationale (LO2 – Investigative Ability)
+
+**Reflection:**  
+[Write your thoughts here – what went well, what you learned, anything you’d do differently.]
+
+**Evidence:**  
+- [Initial Project Idea](../Files/Smart_Radiator_Thermostat_Project.pdf)
+
+---
+
 ### Week 2 | 10.03
-- I will follow the INES course and practice with hardware
 
-Evidence:<br>
-[ipsum](like/to/file)
-### Week 3 | 17.03
-- I will create a detailed list of all needed hardware components
-- I will help create the project charter to get a better understanding of what our plan is
+**Plan:**  
+- Begin hardware prototyping via INES course  
+- Practice sensor interfacing  
+- Share findings with team (LO2 – Targeted Interaction)
 
+**Reflection:**  
+[Reflection placeholder.]
 
-Evidence:<br>
-[ipsum](like/to/file)
-### Week 4 | 24.03
-- I will create a pitch for our project
+**Evidence:**  
+- [INES Practice Notes](link/to/file)  
+- [Sensor Test Code](link/to/file)
 
-Evidence:<br>
-[Pitch](../Files/pitch.md)
-### Week 5 | 31.03
-- lorem
+---
 
-Evidence:<br>
-[ipsum](like/to/file)
-### Week 6 | 07.04
-- lorem
+<!-- Continue with weeks 3–6 -->
 
-Evidence:<br>
-[ipsum](like/to/file)
-
-## Focus Areas & Evidence[^3]
-### Future-Oriented Organization
-N/A
-### Investigative Ability
-N/A
-### Personal Leadership
-N/A
-### Targeted Interaction
-N/A
 [^1]: Week 1 start at the 24th of February, since due to complications that is when my group was formed. 
-[^2]: This area relates to the LO1 and how I achive the stated outcome.
-[^3]: This area relates to the LO2 and how I achive the stated skills.
