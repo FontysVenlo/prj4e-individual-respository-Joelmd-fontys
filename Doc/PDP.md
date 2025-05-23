@@ -38,9 +38,8 @@ For an overview of the original weekly planning, see:
 We found a project idea quite quickly, which helped set a clear direction early on. Since we are a group of two, there is no formal leadership structure, but we have a very close 1-on-1 dynamic that allows for direct, continuous communication and decision-making. This made collaboration efficient and transparent.
 
 **Evidence:**  
-- [Smart Radiator Thermostat Project Outlines](../Files/Smart_Radiator_Thermostat_Project.pdf)  
-- [List of Ideas](../Files/)  
-- [Screenshot of the group from the course](../Files/)
+- [Smart Radiator Thermostat Project Outlines →](../Files/Smart_Radiator_Thermostat_Project.pdf)  
+- [List of Ideas →](../Files/Ideas.txt)  
 
 
 ---
@@ -48,30 +47,36 @@ We found a project idea quite quickly, which helped set a clear direction early 
 ### Week 2 | 10.03
 
 **Plan:**  
-- Begin hardware prototyping via INES course  
-- Practice sensor interfacing  
-- Share findings with team (LO2 – Targeted Interaction)
+- `LO1` I will follow the INES/OSCO course lessons to improve my proficiency in C, which is essential for programming embedded systems and writing firmware for our project.  
+- `LO1` I will complete the assigned C programming exercises to get experience with key concepts like pointers, threads, and semaphores.  
+- `LO2` I will collaborate with my OSCO course partner by reviewing each other's code, exchanging feedback, and reflecting on that feedback to improve my coding practices and communication.
 
 **Reflection:**  
-[Reflection placeholder.]
+This week focused on improving my programming skills in C, which I’ll need for our embedded system. Some concepts were challenging at first, but going over the assignments in the feedback talk helped. Sitting down with my OSCO course partner to review code and exchange feedback was very valuable. It forced to being able to explain my choices more clearly and helped me identify areas for improvement I hadn’t noticed. Reflecting on the feedback made the learning process more intentional.
 
 **Evidence:**  
-- [INES Practice Notes](link/to/file)  
-- [Sensor Test Code](link/to/file)
+- [C Assignment Solutions →](../Files/C_Assignments/)    
+- [C Assignments Feedback + Reflection →](../Files/C_Assignments_Feedback_reflection.txt)
+
 
 ---
 
 ### Week 3 | 17.03
 
 **Plan:**  
-- [Add technical tasks planned for this week]  
-- [Add professional skills focus related to LO2]
+- `LO1` I will complete the embedded assignments to get a better understanding of hardware behavior and embedded programming.    
+- `LO1` I plan to start exploring viable 3D printing materials for our project casing, based on strength, insulation, and accessibility.  
+- `LO2` I will collaborate with my teammate during breadboard wiring and testing sessions, using clear division of tasks. I also intend to document and explain the wiring to reinforce shared understanding.
 
 **Reflection:**  
-[Reflection placeholder.]
+Completing the embedded tasks helped solidify core knowledge, especially around PWM and I2C — both essential for controlling peripherals. I also improved my ability with breadboard wiring and testing. While I intended to research materials and the ESP8266 in detail, I only gathered some surface-level insights. However, this created a good base to build on in future weeks. Working with my teammate was effective again. We alternated tasks and made sure we both understood what was wired and why.
 
 **Evidence:**  
-- [Link to relevant files or notes]
+- [INES Assignment Submission](../Files/INES_Assingments/)  
+- [Breadboard Setup](../Files/I2C_Breadboard.png)  
+- [Initial Material Notes](../Files/material_notes.md)  
+- [Wiring Explanation Notes](../Files/circuit.png)
+
 
 ---
 
