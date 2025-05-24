@@ -72,25 +72,33 @@ This week focused on improving my programming skills in C, which I’ll need for
 Completing the embedded tasks helped solidify core knowledge, especially around PWM and I2C — both essential for controlling peripherals. I also improved my ability with breadboard wiring and testing. While I intended to research materials and the ESP8266 in detail, I only gathered some surface-level insights. However, this created a good base to build on in future weeks. Working with my teammate was effective again. We alternated tasks and made sure we both understood what was wired and why.
 
 **Evidence:**  
-- [INES Assignment Submission](../Files/INES_Assingments/)  
-- [Breadboard Setup](../Files/I2C_Breadboard.png)  
-- [Initial Material Notes](../Files/material_notes.md)  
-- [Wiring Explanation Notes](../Files/circuit.png)
+- [INES Assignment Submission →](../Files/INES_Assingments/)  
+- [Breadboard Setup →](../Files/I2C_Breadboard.png)  
+- [Initial Material Notes →](../Files/material_notes.md)  
+- [Wiring Explanation Notes →](../Files/circuit.png)
 
 
 ---
 
+
 ### Week 4 | 24.03
 
 **Plan:**  
-- [Add technical tasks planned for this week]  
-- [Add professional skills focus related to LO2]
+- `LO1` Finalize a list of key hardware components to allow early prototyping and ordering  
+- `LO1` Research motor types relevant for precise thermal valve actuation  
+- `LO1` Sketch a preliminary system layout to better understand integration challenges  
+- `LO2` Discuss mechanical concepts and expectations with teammate to ensure shared understanding and avoid misalignment  
 
 **Reflection:**  
-[Reflection placeholder.]
+This week we moved from learning concepts to more concrete planning. While initially focused on choosing components, we realized that did not think about power management but once we looked at the motor-driver combination we fixed that. Researching motor types was helpful to understand trade-offs, and we chose a stepper motor for its precision. The early system sketch also helped visualize integration challenges and plan for enclosure design. Collaboration with my teammate ensured we shared a clear vision of how the mechanism should behave.
 
 **Evidence:**  
-- [Link to relevant files or notes]
+- [Motor Comparison Notes →](../Files/Motor_Comparison.md)  
+- [Power Budget Calculation →](../Files/Power_Estimates.xlsx)  
+- [System Diagram Sketch →](../Files/Idea_Sketch.pdf)  
+- [Mechanism Demo Video →](../Files/MechanismVideo.mp4) 
+- [Compontent List #Missing →](../Files/Component_List_Group03.xlsx) 
+
 
 ---
 
