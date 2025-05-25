@@ -102,102 +102,111 @@ This week we moved from learning concepts to more concrete planning. While initi
 
 ---
 
+
 ### Week 5 | 31.03
 
 **Plan:**  
-- [Add technical tasks planned for this week]  
-- [Add professional skills focus related to LO2]
+- `LO1` Focus on INES lessons to improve foundational knowledge for upcoming project implementation  
+- *(No planned LO2 activities this week due to project pacing and workload balance)*
 
 **Reflection:**  
-[Reflection placeholder.]
+This week was intentionally lighter to prepare for the upcoming Project Weeks and catch up with other Subjects. I used the time to focus on the INES course content, particularly on analog input and signal processing. This is directly relevant for reading sensor values (e.g. temperature) in our thermostat. While no additional LO2 skills were actively practiced, the learning in INES will support future technical decision-making.
 
 **Evidence:**  
-- [Link to relevant files or notes]
+- [INES Analog Input/Reading Assignment →](../Files/INES_Assingments/)  
+
 
 ---
 
-### Week 6 | 07.04 — Project Week 1
 
-**Plan:**  
-- Intensive project work: focus on prototyping and testing  
-- Communicate progress and blockers within team (LO2 – Targeted Interaction)
+### Project Weeks | PW1 (08.04) & PW2 (15.04)
 
-**Reflection:**  
-[Reflection placeholder.]
+**Plan (PW1):**  
+- `LO1` Connect and test motor driver, stepper motor, and AC power supply  
+- `LO1` Begin LoRa communication setup between devices  
+- `LO1` 3D print initial mechanical components for housing and actuator  
+- `LO2` Define sprint goals for the next phase of development  
+- `LO2` Set up a lightweight scrum routine with sprint planning and check-ins  
+*Note: Any remaining or blocked tasks from PW1 will be addressed and finalized in PW2.*
+
+**Reflection (PW2):**  
+During PW1, we successfully powered the motor and driver and began writing code for controlling the actuator. The LoRa modules were set up. We 3D printed some basic parts and got an introduction into using 3D printers and how do combine them with embedded systems. We also established a basic sprint goal board and held our first planning session, which helped improve focus and communication in our small team.
 
 **Evidence:**  
-- [Link to project logs, test results]
+- [Motor Test Code](../Files/Testing_for_Prj4/src/main.cpp)  
+- [3D Printed Parts v1](../Files/3D_Parts/)  
+- [Sprint Goals & Scrum Notes →](../Files/sprintMeeting.md)  
+- [LoRa Initial Code →](../Files/LoRa.txt)
+
 
 ---
 
-### Week 7 | 14.04 — Project Week 2
-
-**Plan:**  
-- Continue prototyping and integrate feedback  
-- Take initiative in troubleshooting hardware issues (LO2 – Personal Leadership)
-
-**Reflection:**  
-[Reflection placeholder.]
-
-**Evidence:**  
-- [Link to troubleshooting notes, revised schematics]
-
----
 
 ### Week 8 | 21.04
 
 **Plan:**  
-- Begin finalizing hardware design  
-- Plan scalability and future-proofing aspects (LO2 – Future-Oriented Organization)
+- `LO1` Review the previous sprint’s progress and address any unfinished tasks or issues.   
+- `LO2` Collaborate with my project partner to ensure shared understanding of progress.
 
 **Reflection:**  
-[Reflection placeholder.]
+This week was dedicated to review the work from the last sprint. We identified some hardware connection issues that needed attention, which we fixed together. Taking time to clean up improved overall system stability and helped us prepare for upcoming features. Communication with my partner remained clear and efficient, which contributed to resolving issues quickly.
 
 **Evidence:**  
-- [Link to design documents, planning notes]
+- [Sprint Review Notes](../Files/Sprint_Review.md) 
+
 
 ---
 
-### Week 9 | 05.05
+### Week 9 | 06.05
 
 **Plan:**  
-- Start documentation of hardware setup and code  
-- Prepare for demo presentation (LO2 – Targeted Interaction)
+- `LO1` Improve LoRa communication capabilities.  
+- `LO1` Enhance user feedback through screen interfaces.  
 
 **Reflection:**  
-[Reflection placeholder.]
+This week was dedicated to improving wireless communication and user interface. The enhancements to LoRa communication allow more reliable remote data transmission. Implementing screen feedback improved usability by giving clear system status.  
 
 **Evidence:**  
-- [Link to documentation drafts, presentation slides]
+- [LoRa Communication Logs](../Files/LoRa_Communication_Week9.md)  
+- [Screen Feedback Implementation](../Files/Screen_Feedback_Code.md)  
+
 
 ---
 
-### Week 10 | 12.05
+
+### Week 10 | 13.05
 
 **Plan:**  
-- Polish prototype and fix outstanding issues  
-- Lead team review sessions (LO2 – Personal Leadership)
+- `LO1` Design and iterate on 3D printable parts to house the stepper motor securely.  
+- `LO1` Print and test prototype cases, making adjustments as needed.  
+- `LO2` Discuss design improvements and assembly procedures with partner to ensure fit and function.  
 
 **Reflection:**  
-[Reflection placeholder.]
+The 3D printing week was valuable for developing mechanical design skills and prototyping. Iterative printing led to a secure and functional motor housing. Close communication with my partner ensured the design met assembly needs and project goals.  
 
 **Evidence:**  
-- [Link to review minutes, code commits]
+- [3D Design Files](../Files/Motor_Case_Design.stl)  
+- [Photos of Printed Prototypes](../Files/Printed_Prototypes_Week10.jpg)  
+
 
 ---
+
 
 ### Week 11 | 19.05
 
 **Plan:**  
-- Final testing and validation  
-- Reflect on project progress and professional growth (LO2 – Investigative Ability)
+- `LO1` Conduct a hardware review to check if initial ideas still allign with current vision 
+- `LO1` Update parts that dont allign with our current ideas
+- `LO2` Reflect on the decision-making process and collaborate with my group member 
 
 **Reflection:**  
-[Reflection placeholder.]
+After reviewing our current hardware the temperatur sensor, the Honeywell HIH-4030, was identified as a not usable for our project. Researching alternatives helped deepen my understanding of sensor specifications and project requirements. The waterproof DS18B20 was selected for its balance of precision and environmental protection, which fits our needs better than the non-waterproof version. Group discussions were valuable in ensuring shared understanding and planning next steps.For future hardware lists the project envirement and the technological size should be tought about.
 
 **Evidence:**  
-- [Link to final reports, test results]
+- [Sensor Comparison Document →](../Files/Sensor_Comparison.md)[^2]  
+
 
 ---
 
 [^1]: Week 1 start at the 24th of February, since due to complications that is when my group was formed.
+[^2]: Ask if i need to add sources to the evidence, such as links for my comparison

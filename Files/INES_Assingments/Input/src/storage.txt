@@ -1,0 +1,103 @@
+#include <Arduino.h>
+#include <Wire.h>
+
+void turnOnYellowLED();
+void turnOffYellowLED();
+void buttonTask(void * parameter);
+void ledTask(void * parameter);
+void heartbeat(void * parameter);
+
+#define LED1 25
+#define ADDR 0x20
+#define IODIRB 0x01  // MCP23017 IODIRB Register (Set Input/Output)
+#define GPIOB 0x13   // MCP23017 GPIOB Register (Read Inputs)
+#define OLATB 0x15   // MCP23017 OLATB Register (Write Outputs)
+#define GPB4 0x10    // GPB4 pin (Button)
+#define GPB3 0x08    // GPB3 pin (Yellow LED)
+
+uint8_t buttonState = 0;  // Global variable to store button state
+
+uint8_t startup[] = {ADDR, IODIRB, 0xF7, 0};  // GPB3 = Output (0), GPB4 = Input (1)
+
+void setup() {
+  Wire.begin();
+  Serial.begin(115200);
+  pinMode(LED1, OUTPUT);
+
+  // Create FreeRTOS tasks
+  xTaskCreate(heartbeat, "heartbeat", 2000, (void *) LED1, 1, NULL);
+  xTaskCreate(buttonTask, "buttonTask", 2000, NULL, 1, NULL);
+  xTaskCreate(ledTask, "ledTask", 2000, NULL, 1, NULL);
+
+  // Set up MCP23017 for GPB3 as Output and GPB4 as Input
+  Wire.beginTransmission(ADDR);
+  Wire.write(IODIRB);  // Start communication to IODIRB register
+  Wire.write(0xF7);    // 0b11110111 -> GPB3 (Output), GPB4 (Input)
+  Wire.endTransmission();
+}
+
+void heartbeat(void * parameter) {
+  int led = (intptr_t) parameter;
+  Serial.println("Heartbeat task is running");
+
+  for (;;) {
+    digitalWrite(led, HIGH);
+    vTaskDelay(500 / portTICK_PERIOD_MS);
+    digitalWrite(led, LOW);
+    vTaskDelay(500 / portTICK_PERIOD_MS);
+  }
+}
+
+void buttonTask(void * parameter) {
+  for (;;) {
+    // Read GPIOB register to check button state
+    Wire.beginTransmission(ADDR);
+    Wire.write(GPIOB);   // Start communication to GPIOB register
+    Wire.endTransmission();
+    Wire.requestFrom(ADDR, 1);  // Request 1 byte of data (GPIOB state)
+
+    buttonState = Wire.read();  // Read GPIOB register
+
+    // Check if the button (GPB4) is pressed (LOW)
+    if ((buttonState & GPB4) == 0) {  // Button pressed (LOW)
+      Serial.println("Button Pressed!");
+    } else {
+      Serial.println("Button Released.");
+    }
+
+    vTaskDelay(50 / portTICK_PERIOD_MS); // Small debounce delay
+  }
+}
+
+void ledTask(void * parameter) {
+  for (;;) {
+    // If button is pressed, turn on the LED; otherwise, turn it off
+    if ((buttonState & GPB4) == 0) {
+      Serial.println("Button Pressed. Turning on Yellow LED.");
+      turnOnYellowLED();  // Turn on the LED
+    } else {
+      Serial.println("Button Released. Turning off Yellow LED.");
+      turnOffYellowLED();  // Turn off the LED
+    }
+
+    vTaskDelay(50 / portTICK_PERIOD_MS); // Small delay to reduce CPU usage
+  }
+}
+
+void turnOnYellowLED() {
+  Wire.beginTransmission(ADDR);
+  Wire.write(OLATB);   // Write to OLATB register (Output Latch for Port B)
+  Wire.write(GPB3);    // Set GPB3 HIGH (turn on yellow LED)
+  Wire.endTransmission();
+}
+
+void turnOffYellowLED() {
+  Wire.beginTransmission(ADDR);
+  Wire.write(OLATB);   // Write to OLATB register (Output Latch for Port B)
+  Wire.write(0x00);    // Set all outputs LOW (turn off yellow LED)
+  Wire.endTransmission();
+}
+
+void loop() {
+  // Empty loop since all functionality is handled by tasks
+}

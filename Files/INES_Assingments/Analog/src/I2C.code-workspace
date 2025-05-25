@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../I2C"
+		},
+		{
+			"name": "Input",
+			"path": "../../Input"
+		},
+		{
+			"name": "Analog",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
