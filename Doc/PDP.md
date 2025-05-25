@@ -157,7 +157,7 @@ This week was dedicated to review the work from the last sprint. We identified s
 
 ---
 
-### Week 9 | 06.05
+### Week 9 | 05.05
 
 **Plan:**  
 - `LO1` Improve LoRa communication capabilities.  
@@ -174,7 +174,7 @@ This week was dedicated to improving wireless communication and user interface. 
 ---
 
 
-### Week 10 | 13.05
+### Week 10 | 12.05
 
 **Plan:**  
 - `LO1` Design and iterate on 3D printable parts to house the stepper motor securely.  
@@ -208,5 +208,19 @@ After reviewing our current hardware the temperatur sensor, the Honeywell HIH-40
 
 ---
 
+
+### Project Weeks | PW3 (26.05) & PW4 (02.06) & PW5 (09.06)
+
+**Plan (PW3):**  
+
+*Note: Any remaining or blocked tasks from PW3 will be addressed and finalized in PW4&5.*
+
+**Reflection (PW5):**  
+
+
+**Evidence:**  
+
+
+---
 [^1]: Week 1 start at the 24th of February, since due to complications that is when my group was formed.
 [^2]: Ask if i need to add sources to the evidence, such as links for my comparison
