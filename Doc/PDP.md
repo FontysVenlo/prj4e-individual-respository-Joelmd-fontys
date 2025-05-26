@@ -133,8 +133,8 @@ This week was intentionally lighter to prepare for the upcoming Project Weeks an
 During PW1, we successfully powered the motor and driver and began writing code for controlling the actuator. The LoRa modules were set up. We 3D printed some basic parts and got an introduction into using 3D printers and how do combine them with embedded systems. We also established a basic sprint goal board and held our first planning session, which helped improve focus and communication in our small team.
 
 **Evidence:**  
-- [Motor Test Code](../Files/Testing_for_Prj4/src/main.cpp)  
-- [3D Printed Parts v1](../Files/3D_Parts/)  
+- [Motor Test Code →](../Files/Testing_for_Prj4/src/main.cpp)  
+- [3D Printed Parts v1 →](../Files/3D_Parts/)  
 - [Sprint Goals & Scrum Notes →](../Files/sprintMeeting.md)  
 - [LoRa Initial Code →](../Files/LoRa.txt)
 
@@ -152,7 +152,7 @@ During PW1, we successfully powered the motor and driver and began writing code 
 This week was dedicated to review the work from the last sprint. We identified some hardware connection issues that needed attention, which we fixed together. Taking time to clean up improved overall system stability and helped us prepare for upcoming features. Communication with my partner remained clear and efficient, which contributed to resolving issues quickly.
 
 **Evidence:**  
-- [Sprint Review Notes](../Files/Sprint_Review.md) 
+- [Sprint Review Notes →](../Files/Sprint_Review.md) 
 
 
 ---
@@ -167,8 +167,8 @@ This week was dedicated to review the work from the last sprint. We identified s
 This week was dedicated to improving wireless communication and user interface. The enhancements to LoRa communication allow more reliable remote data transmission. Implementing screen feedback improved usability by giving clear system status.  
 
 **Evidence:**  
-- [LoRa Communication Logs](../Files/LoRa_Communication_Week9.md)  
-- [Screen Feedback Implementation](../Files/Screen_Feedback_Code.md)  
+- [LoRa Communication Logs →](../Files/LoRa_Communication_Week9.md)  # add
+- [Screen Feedback Implementation →](../Files/Screen_Feedback_Code.md)  # add
 
 
 ---
@@ -185,8 +185,8 @@ This week was dedicated to improving wireless communication and user interface. 
 The 3D printing week was valuable for developing mechanical design skills and prototyping. Iterative printing led to a secure and functional motor housing. Close communication with my partner ensured the design met assembly needs and project goals.  
 
 **Evidence:**  
-- [3D Design Files](../Files/Motor_Case_Design.stl)  
-- [Photos of Printed Prototypes](../Files/Printed_Prototypes_Week10.jpg)  
+- [3D Design Files →](../Files/Motor_Case_Design.stl) # add
+- [Photos of Printed Prototypes →](../Files/Printed_Prototypes_Week10.jpg) # add
 
 
 ---
@@ -212,14 +212,23 @@ After reviewing our current hardware the temperatur sensor, the Honeywell HIH-40
 ### Project Weeks | PW3 (26.05) & PW4 (02.06) & PW5 (09.06)
 
 **Plan (PW3):**  
+- `LO1` 3D print final version of the motor casing.  
+- `LO1` Develop code for the wireless remote and its display.  
+- `LO1` Improve and finalize LoRa communication code.  
+- `LO1` Integrate temperature sensor and implement calculation logic.  
+- `LO1` Write motor control logic including movement and stop function.  
+- `LO1` Create calibration code (if time allows).  
+- `LO1` Design casing for the remote control (optional, if time permits).  
+- `LO1` Assemble and test full system in a realistic setup. 
+- `LO2` Conduct sprint planning to distribute tasks, set technical priorities, and structure workload across team.   
 
-*Note: Any remaining or blocked tasks from PW3 will be addressed and finalized in PW4&5.*
+*Note: Any remaining or blocked tasks from PW3 will be addressed and finalized in PW4 & PW5.*
 
 **Reflection (PW5):**  
 
-
 **Evidence:**  
-
+- [Sprint Planning Notes →](../Files/SprintPlaning.md) 
+- [3D Modeling Process – Jupyter Notebook →](../Files/3D_modeling.ipynb) # update
 
 ---
 [^1]: Week 1 start at the 24th of February, since due to complications that is when my group was formed.
