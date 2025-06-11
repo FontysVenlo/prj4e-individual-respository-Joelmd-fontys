@@ -5,7 +5,7 @@
 **Project:** Smart Radiator Thermostat  
 **Start Date:** 24.02.2025[^1]
 
-This Personal Development Plan outlines my goals and progress during the semester. It is based on the HBO-i framework, and structured week-by-week to reflect on both technical and professional development.
+This Personal Development Plan outlines my goals and progress during the semester. It is based on the HBO-i framework, and structured week-by-week to reflect on both technical and professional development.[^authenticity]
 
 ---
 
@@ -96,7 +96,7 @@ This week we moved from learning concepts to more concrete planning. While initi
 - [Motor Comparison Notes →](../Files/Motor_Comparison.md)   
 - [System Diagram Sketch →](../Files/Idea_Sketch.pdf)  
 - [Mechanism Demo Video →](../Files/MechanismVideo.mp4) 
-- [Compontent List →](../Files/Component_List_Group03.xlsx) 
+- [Component List →](../Files/Component_List_Group03.xlsx) 
 
 
 ---
@@ -199,7 +199,7 @@ The 3D printing week was valuable for developing mechanical design skills and pr
 - `LO2` Reflect on the decision-making process and collaborate with my group member 
 
 **Reflection:**  
-After reviewing our current hardware the temperatur sensor, the Honeywell HIH-4030, was identified as a not usable for our project. Researching alternatives helped deepen my understanding of sensor specifications and project requirements. The waterproof DS18B20 was selected for its balance of precision and environmental protection, which fits our needs better than the non-waterproof version. Group discussions were valuable in ensuring shared understanding and planning next steps.For future hardware lists the project envirement and the technological size should be tought about.
+After reviewing our current hardware the temperatur sensor, the Honeywell HIH-4030, was identified as a not usable for our project. Researching alternatives helped deepen my understanding of sensor specifications and project requirements. The waterproof DS18B20 was selected for its balance of precision and environmental protection, which fits our needs better than the non-waterproof version. Group discussions were valuable in ensuring shared understanding and planning next steps.For future hardware lists the project environment and the technological size should be thought about.
 
 **Evidence:**  
 - [Sensor Comparison Document →](../Files/Sensor_Comparison.md)
@@ -234,7 +234,10 @@ Sprint planning also went well. We kept consistent communication and had fixed d
 - [Sprint Planning Notes →](../Files/SprintPlanning.md) 
 - [3D Modeling Process – Jupyter Notebook →](../Files/3D_modelingV2.ipynb) 
 - [New Temperature Sensor →](../Files/ds18b20.pdf)
-- [LoRa, Temp Sensor & Motor Control Code →](https://github.com/FontysVenlo/prj4e-repository-group_e03)
+- [LoRa, Temp Sensor & Motor Control Code →](https://github.com/FontysVenlo/prj4e-repository-group_e03) # any evidence regarding software will be added here
+- [Sprint Review Notes →](../Files/SprintReview.md)
 
 ---
 [^1]: Week 1 start at the 24th of February, since due to complications that is when my group was formed.
+[^authenticity]: Proof of authenticity.<br>
+Parts of this report, including reflections and phrasing, were enhanced with the assistance of an AI language model (ChatGPT by OpenAI) to improve clarity and fluency. All technical content, planning, and reflections are my original work. AI was used solely to better express my ideas in English, which is not my first language. This use was allowed by Mr. Chaaya.
