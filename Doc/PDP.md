@@ -93,11 +93,10 @@ Completing the embedded tasks helped solidify core knowledge, especially around 
 This week we moved from learning concepts to more concrete planning. While initially focused on choosing components, we realized that did not think about power management but once we looked at the motor-driver combination we fixed that. Researching motor types was helpful to understand trade-offs, and we chose a stepper motor for its precision. The early system sketch also helped visualize integration challenges and plan for enclosure design. Collaboration with my teammate ensured we shared a clear vision of how the mechanism should behave.
 
 **Evidence:**  
-- [Motor Comparison Notes →](../Files/Motor_Comparison.md)  
-- [Power Budget Calculation →](../Files/Power_Estimates.xlsx)  
+- [Motor Comparison Notes →](../Files/Motor_Comparison.md)   
 - [System Diagram Sketch →](../Files/Idea_Sketch.pdf)  
 - [Mechanism Demo Video →](../Files/MechanismVideo.mp4) 
-- [Compontent List #Missing →](../Files/Component_List_Group03.xlsx) 
+- [Compontent List →](../Files/Component_List_Group03.xlsx) 
 
 
 ---
@@ -185,8 +184,8 @@ This week was dedicated to improving wireless communication and user interface. 
 The 3D printing week was valuable for developing mechanical design skills and prototyping. Iterative printing led to a secure and functional motor housing. Close communication with my partner ensured the design met assembly needs and project goals.  
 
 **Evidence:**  
-- [3D Design Files →](../Files/Motor_Case_Design.stl) # add
-- [Photos of Printed Prototypes →](../Files/Printed_Prototypes_Week10.jpg) # add
+- [3D Design Files →](../Files/3D_modelingV1.ipynb) 
+- [Photos of Printed Prototypes →](../Files/Prints/) 
 
 
 ---
@@ -203,7 +202,7 @@ The 3D printing week was valuable for developing mechanical design skills and pr
 After reviewing our current hardware the temperatur sensor, the Honeywell HIH-4030, was identified as a not usable for our project. Researching alternatives helped deepen my understanding of sensor specifications and project requirements. The waterproof DS18B20 was selected for its balance of precision and environmental protection, which fits our needs better than the non-waterproof version. Group discussions were valuable in ensuring shared understanding and planning next steps.For future hardware lists the project envirement and the technological size should be tought about.
 
 **Evidence:**  
-- [Sensor Comparison Document →](../Files/Sensor_Comparison.md)[^2]  
+- [Sensor Comparison Document →](../Files/Sensor_Comparison.md)
 
 
 ---
@@ -228,8 +227,7 @@ After reviewing our current hardware the temperatur sensor, the Honeywell HIH-40
 
 **Evidence:**  
 - [Sprint Planning Notes →](../Files/SprintPlaning.md) 
-- [3D Modeling Process – Jupyter Notebook →](../Files/3D_modeling.ipynb) # update
+- [3D Modeling Process – Jupyter Notebook →](../Files/3D_modelingV2.ipynb) 
 
 ---
 [^1]: Week 1 start at the 24th of February, since due to complications that is when my group was formed.
-[^2]: Ask if i need to add sources to the evidence, such as links for my comparison
