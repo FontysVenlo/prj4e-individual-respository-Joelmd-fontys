@@ -166,8 +166,8 @@ This week was dedicated to review the work from the last sprint. We identified s
 This week was dedicated to improving wireless communication and user interface. The enhancements to LoRa communication allow more reliable remote data transmission. Implementing screen feedback improved usability by giving clear system status.  
 
 **Evidence:**  
-- [LoRa Communication Logs →](../Files/LoRa_Communication_Week9.md)  # add
-- [Screen Feedback Implementation →](../Files/Screen_Feedback_Code.md)  # add
+- [LoRa Communication Logs →](../Files/LoRa_Communication_Week9.c)
+- [Screen Feedback Implementation →](../Files/Screen_Feedback_Code.c)
 
 
 ---
@@ -222,12 +222,19 @@ After reviewing our current hardware the temperatur sensor, the Honeywell HIH-40
 - `LO2` Conduct sprint planning to distribute tasks, set technical priorities, and structure workload across team.   
 
 *Note: Any remaining or blocked tasks from PW3 will be addressed and finalized in PW4 & PW5.*
-
+ 
 **Reflection (PW5):**  
+These final project weeks were productive and showed how much smoother development goes after early experimentation. The 3D printing process went well thanks to earlier experience. Adapting the motor housing was easy, though designing it took longer than expected, so no remote casing will be made for now. Long print times at the university were also a hurdle, so better planning or checking printer availability would help next time.
+The temperature sensors were reordered, and the new Sensor(DS18B20) integrated well. Testing showed no issues, and implementation was straightforward. Evidence is linked.
+On the software side, LoRa communication, temperature sensing, and motor control were all completed. The updated code is in our group GitHub repo. We often swapped tasks when stuck, which helped resolve issues and supported learning through mutual debugging.
+Sprint planning also went well. We kept consistent communication and had fixed days for meet at university which helped keep progress steady and teamwork smooth.
+
 
 **Evidence:**  
-- [Sprint Planning Notes →](../Files/SprintPlaning.md) 
+- [Sprint Planning Notes →](../Files/SprintPlanning.md) 
 - [3D Modeling Process – Jupyter Notebook →](../Files/3D_modelingV2.ipynb) 
+- [New Temperature Sensor →](../Files/ds18b20.pdf)
+- [LoRa, Temp Sensor & Motor Control Code →](https://github.com/FontysVenlo/prj4e-repository-group_e03)
 
 ---
 [^1]: Week 1 start at the 24th of February, since due to complications that is when my group was formed.
